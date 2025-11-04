@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { Mail } from "lucide-react"
-import Image from "next/image"
+import { Mail } from "lucide-react";
+import Image from "next/image";
 
 export default function ComingSoonPage() {
   return (
@@ -11,7 +11,8 @@ export default function ComingSoonPage() {
         <div
           className="absolute -top-1/2 -right-1/2 w-full h-full rounded-full opacity-15 blur-3xl"
           style={{
-            background: "radial-gradient(circle, oklch(0.65 0.15 290) 0%, transparent 70%)",
+            background:
+              "radial-gradient(circle, oklch(0.65 0.15 290) 0%, transparent 70%)",
             animation: "float 8s ease-in-out infinite",
           }}
         ></div>
@@ -41,17 +42,19 @@ export default function ComingSoonPage() {
         {/* Main message */}
         <div className="mb-12 sm:mb-16 lg:mb-20">
           <p className="text-xl sm:text-2xl lg:text-3xl font-light text-foreground/80 mb-6 leading-relaxed text-pretty">
-            Something amazing is <span className="text-primary font-semibold">cooking</span>
+            Something amazing is{" "}
+            <span className="text-primary font-semibold">cooking</span>
           </p>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed text-pretty">
-            We're crafting the perfect collection for you. The wait will be worth it.
+            We're crafting the perfect collection for you. The wait will be
+            worth it.
           </p>
         </div>
 
         {/* CTA Section */}
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
           <a
-            href="https://instagram.com/Anywear"
+            href="https://www.instagram.com/anywear.eg?igsh=bjIwamU4aTZwdTh1"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative px-8 sm:px-10 py-4 sm:py-5 bg-accent hover:bg-accent/90 text-accent-foreground font-semibold rounded-full transition-all duration-300 flex items-center gap-3 shadow-lg hover:shadow-xl"
@@ -64,7 +67,9 @@ export default function ComingSoonPage() {
         {/* Footer text */}
         <div className="mt-16 sm:mt-20 pt-8 sm:pt-12 border-t border-muted/20">
           <p className="text-sm sm:text-base text-muted-foreground">
-            Follow us on <span className="text-accent font-semibold">@Anywear</span> for early updates
+            Follow us on{" "}
+            <span className="text-accent font-semibold">@Anywear</span> for
+            early updates
           </p>
         </div>
       </div>
@@ -81,5 +86,5 @@ export default function ComingSoonPage() {
         }
       `}</style>
     </main>
-  )
+  );
 }
